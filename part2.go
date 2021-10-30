@@ -50,7 +50,6 @@ func main() {
 			if ans == problem.a {
 				counter++
 			}
-
 		}
 	}
 	fmt.Printf("total score: %d \n", counter)
@@ -72,5 +71,4 @@ func parseLines(lines [][]string) []problem {
 	}
 
 	return problems
-
 }
